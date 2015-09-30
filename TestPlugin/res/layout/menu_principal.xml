@@ -1,0 +1,206 @@
+<ScrollView 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical">
+
+	    
+	    <LinearLayout 
+	        android:id="@+id/view_intent_service"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_margin="10dp"
+	        android:background="#33B5E5">
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:textColor="@android:color/white"
+		        android:layout_gravity="center"
+		        android:text="INTENT SERVICE" />
+		    <ProgressBar 
+		        android:id="@+id/pb_intentservice"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:padding="5dp"
+		        style="?android:attr/progressBarStyleHorizontal"
+		        android:progressDrawable="@drawable/pb_background"/>
+		    <Button 
+		        android:id="@+id/bt_intentservice"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_gravity="center"
+		        android:text="Iniciar"/>
+	    </LinearLayout>
+	    
+	    
+	    <LinearLayout 
+	        android:id="@+id/view_service"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_margin="10dp"
+	        android:background="#AA66CC">
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:textColor="@android:color/white"
+		        android:layout_gravity="center"
+		        android:text="SERVICE SEGUNDO PLANO" />
+		    <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:gravity="center">
+		        <Button 
+			        android:id="@+id/bt_start_service"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Iniciar"/>
+		        <Button 
+			        android:id="@+id/bt_stop_service"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Detener"/>
+		    </LinearLayout>
+	    </LinearLayout>
+	    
+	    
+	    <LinearLayout 
+	        android:id="@+id/view_service_foreground"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_margin="10dp"
+	        android:background="#99CC00">
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:textColor="@android:color/white"
+		        android:layout_gravity="center"
+		        android:text="SERVICE PRIMER PLANO" />
+	        <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:gravity="center">
+		        <Button 
+			        android:id="@+id/bt_start_service_foreground"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Iniciar"/>
+		        <Button 
+			        android:id="@+id/bt_stop_service_foreground"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Detener"/>
+		    </LinearLayout>
+	    </LinearLayout>
+	    
+	    
+	    <LinearLayout 
+	        android:id="@+id/view_service_foreground"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_margin="10dp"
+	        android:background="#FFBB33">
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:textColor="@android:color/white"
+		        android:layout_gravity="center"
+		        android:text="SERVICE IBINDER" />
+	        <TextView
+	            android:id="@+id/tx_service_ibinder"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:textColor="@android:color/white"
+		        android:layout_gravity="center"
+		        android:text="Su resultado es: " />
+	        <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:gravity="center">
+		        <Button 
+			        android:id="@+id/bt_start_service_ibinder"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Iniciar"/>
+		        <Button 
+			        android:id="@+id/bt_get_result"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Resultado"/>
+		        <Button 
+			        android:id="@+id/bt_stop_service_ibinder"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Detener"/>
+		    </LinearLayout>
+	    </LinearLayout>
+	    
+	
+	    <LinearLayout 
+	        android:id="@+id/view_service_messenger"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical"
+	        android:layout_margin="10dp"
+	        android:background="#FF4444">
+	        <TextView
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:padding="10dp"
+		        android:textColor="@android:color/white"
+		        android:layout_gravity="center"
+		        android:text="SERVICE MESSENGER" />
+	        <LinearLayout 
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:orientation="horizontal"
+		        android:gravity="center">
+		        <Button 
+			        android:id="@+id/bt_start_service_messenger"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Iniciar"/>
+		        <Button 
+			        android:id="@+id/bt_get_result_messenger"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Saludar"/>
+		        <Button 
+			        android:id="@+id/bt_stop_service_messenger"
+			        android:layout_width="wrap_content"
+			        android:layout_height="wrap_content"
+			        android:layout_weight="1"
+			        android:text="Detener"/>
+		    </LinearLayout>
+	    </LinearLayout>
+	    
+	</LinearLayout>
+
+
+</ScrollView>

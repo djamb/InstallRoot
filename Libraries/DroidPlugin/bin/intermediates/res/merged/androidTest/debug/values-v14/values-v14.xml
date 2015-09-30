@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/Libraries/DroidPlugin/bin/intermediates/bundles/debug/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="DroidPluginTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+    <style name="DroidPluginThemeDialog" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+</resources>

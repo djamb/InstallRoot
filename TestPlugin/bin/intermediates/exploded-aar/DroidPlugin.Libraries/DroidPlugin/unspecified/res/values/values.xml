@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/Libraries/DroidPlugin/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="service_name_plugin_manager_service">Servicios Plug-agencias</string>
+    <string name="stub_name_activity">Inicie ...</string>
+    <string name="stub_name_povider">Servicios Plug-agencias</string>
+    <string name="stub_name_service">Servicios Plug-agencias</string>
+    <!-- From: file:/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/Libraries/DroidPlugin/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="DroidPluginTheme" parent="android:Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+    <style name="DroidPluginThemeDialog" parent="android:Theme.Dialog">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+</resources>

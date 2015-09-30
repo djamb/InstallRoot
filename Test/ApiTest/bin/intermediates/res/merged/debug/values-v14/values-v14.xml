@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/Test/ApiTest/res/values-v14/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.DeviceDefault.Light">
+        <!-- API 14 theme customizations can go here. -->
+    </style>
+    <!-- From: file:/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/Test/ApiTest/bin/intermediates/exploded-aar/DroidPlugin.Libraries/DroidPlugin/unspecified/res/values-v14/values-v14.xml -->
+    <eat-comment/>
+    <style name="DroidPluginTheme" parent="android:Theme.DeviceDefault.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+    <style name="DroidPluginThemeDialog" parent="android:Theme.DeviceDefault.Light.Dialog">
+        <item name="android:windowBackground">@drawable/plugin_activity_loading</item>
+    </style>
+</resources>

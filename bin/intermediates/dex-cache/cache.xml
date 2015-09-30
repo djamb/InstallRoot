@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/libs/internal_impl-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="962e8b12569c56dbdcf8367eb4eac8bb129cd18f">
+        <dex dex="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/pre-dexed/debug/internal_impl-21.0.2-7617be4d91e7c9e304a742fb714a32bbb38c801a.jar" />
+    </item>
+    <item
+        jar="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/exploded-aar/DroidPlugin.Libraries/DroidPlugin/unspecified/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="5deef5da404e6e3b0c720dbbb745499eada4ed84">
+        <dex dex="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/pre-dexed/debug/classes-86515a22117a1f31304e35dbfb480c13ccbe1d7c.jar" />
+    </item>
+    <item
+        jar="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/exploded-aar/com.android.support/support-v4/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="d1bf02de1c56d942e7a9d093b8610ba1ef4128e3">
+        <dex dex="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/pre-dexed/debug/classes-a46feae2a085d5bd64c71e95fe59ef22ced5da74.jar" />
+    </item>
+    <item
+        jar="/home/djamb/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.2/support-annotations-21.0.2.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="99373741f99a0556ee293c41e8faa1ca3ae8a4e6">
+        <dex dex="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/pre-dexed/debug/support-annotations-21.0.2-6dc1bad1fbc990edf20ae143b256c38458c1e4c4.jar" />
+    </item>
+    <item
+        jar="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/exploded-aar/com.android.support/cardview-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="b017100da14f9c158c9f5f2f508333c224b24a7c">
+        <dex dex="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/pre-dexed/debug/classes-0f4f916b4188613c103542f9b4d397e7039b7863.jar" />
+    </item>
+    <item
+        jar="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/exploded-aar/com.android.support/gridlayout-v7/21.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="9742ced04aafd9ac97dd2c66c1aa0e32d2ae7e54">
+        <dex dex="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/pre-dexed/debug/classes-aafeeaa86667da74746ab14b2eb851fa80b3842b.jar" />
+    </item>
+    <item
+        jar="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/exploded-aar/com.android.support/appcompat-v7/18.0.0/jars/classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="8f11f56e350eacabf2273f646d981356eea0ed77">
+        <dex dex="/home/djamb/Escritorio/borrarBarcodePlayservice/DroidPlugin/project/TestPlugin/bin/intermediates/pre-dexed/debug/classes-6dcffad18c8319a9db847b58e4a0c5102cd7d4fd.jar" />
+    </item>
+
+</items>
